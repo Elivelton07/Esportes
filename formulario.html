@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="_css/style.css">
+
+  <script type"text/javascript" src="_javascript/script.js"></script>
+
+
+</head>
+
+
+<body background="_imagens/Torcedores.jpg">
+  <form class="form">
+    <h1>Cadastre-se e receba conteúdos exclusivos.</h1>
+    <input id="name" type="text" placeholder="Nome">
+    <br>
+    <input id="nickname" type="text" placeholder="Apelido">
+    <br>
+    
+    <input id="day" type="text" maxlength="2" placeholder="Dia">/
+    <input id="month" type="text" maxlength="2" placeholder="Mês">/
+    <input id="year" type="text" maxlength="4" placeholder="Ano">
+    <br>
+    
+    <input id="cpf" type="text" maxlength="14" oninput="doc()" placeholder="CPF">
+    <br>
+    <b>Time do coração:</b> 
+    <select id="team_id" maxlength="20">
+      <option id="">Selecionar</option>
+      <option id="1">Time 1</option>
+      <option id="2">Time 2</option>
+      <option id="100">Time N</option>
+    </select>
+    <br>
+    <p></p><b>Esportes de interesse:</b> </p>
+    <input type="checkbox" name="sport" id="futebol"><b>Futebol</b> <br>
+    <input type="checkbox" name="sport" id="volei"><b>Vôlei</b> <br>
+    <input type="checkbox" name="sport" id="basquete"><b>Basquete</b> <br>
+    <input type="checkbox" name="sport" id="futsal"><b>Futsal</b> <br>
+    <input type="checkbox" name="sport" id="automobilismo"><b>Automobilismo</b> <br>
+    <input type="checkbox" name="sport" id="artes_marciais"><b>Artes Marciais</b> <br>
+    <input type="checkbox" name="sport" id="natacao"><b>Natação</b> <br>
+
+    <button type="button" class="btn3 btn-lg  mx-1" onclick="validar()">Enviar</button>
+    
+    <a href="autorizacao.html" class="btn4 btn-lg mx-1">Voltar</a>
+
+
+  </form>
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
